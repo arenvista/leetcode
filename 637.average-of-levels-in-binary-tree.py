@@ -26,7 +26,4 @@ class Solution:
             level_avg = level_sum / q_size
             res.append(level_avg)
         return res
-
-
-
 # @leet end

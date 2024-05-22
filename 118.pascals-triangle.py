@@ -10,8 +10,6 @@ class Solution:
         triangle.append(first_row)
 
         for i in range(1, numRows):
-            print(i)
-            print(triangle[i-1])
             row_prev = triangle[i-1]
             row_curr = [1] #we know we always start and end with 1; covers the 1st
 
@@ -23,10 +21,4 @@ class Solution:
             row_curr.append(1) #adding the final 1
             triangle.append(row_curr)
         return triangle
-
-            
-            
-
-
-        
 # @leet end

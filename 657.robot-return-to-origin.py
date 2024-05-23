@@ -14,7 +14,4 @@ class Solution:
                 case "R":
                     x += 1
         return x == 0 and y == 0
-
-
-        
 # @leet end
